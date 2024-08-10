@@ -5,9 +5,11 @@ import { PagesRoutingModule } from './pages/pages.routing.module';
 
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { AuthRoutingModule } from './auth/auth.routing.module';
+import { LoginComponent } from './auth/login/login.component';
 
 
 const routes: Routes = [
+  { path: '', component: LoginComponent },
   { path: '**', component: NopagefoundComponent}
 ];
 

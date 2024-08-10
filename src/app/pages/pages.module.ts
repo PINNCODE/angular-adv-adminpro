@@ -8,6 +8,8 @@ import { RouterModule } from '@angular/router';
 import { PagesComponent } from './pages.component';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from "../components/components.module";
+import { PromesasComponent } from './promesas/promesas.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -15,13 +17,17 @@ import { ComponentsModule } from "../components/components.module";
     PagesComponent,
     DashboardComponent,
     Grafica1Component,
-    ProgressComponent
+    ProgressComponent,
+    PromesasComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     PagesComponent,
     DashboardComponent,
     Grafica1Component,
-    ProgressComponent
+    ProgressComponent,
+    PromesasComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
