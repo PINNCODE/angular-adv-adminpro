@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from "../components/components.module";
 import { PromesasComponent } from './promesas/promesas.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     PromesasComponent,
     AccountSettingsComponent,
+    RxjsComponent
   ],
   exports: [
     PagesComponent,
